@@ -1,0 +1,135 @@
+
+
+
+/* fichier css */
+body
+{
+   width: 935px;   		/* Pour fixer la largeur de la page */
+   margin: auto; 		/* Pour centrer la page */
+   margin-top: 15px; 		/* Pour éviter de coller avec le haut du navigateur */ 
+   margin-bottom: 15px;    	/* Idem pour le bas du navigateur */
+   background-color: white;
+}
+
+header
+{
+	width: 935px;
+	height: 185px;
+	background-image: url("images/bandeauFestival.jpg");
+	background-repeat: no-repeat;
+	margin-bottom: 6px;
+
+}
+footer
+{
+	text-align: right;
+	font-style: italic;
+}
+ 
+nav  		/* menu */
+{
+    float: left;
+    width: 148px;
+	height: 470px;
+	background-color: #234CA5;
+	color: white;
+	padding: 8px;
+	
+}
+nav a
+{
+	text-decoration: none;
+	color: white;
+	font-style: italic;
+}
+nav a:hover
+{
+	color: grey;
+}
+
+section
+{
+    height: 500px;
+	margin-left: 170px;  
+}
+
+article	
+{
+	vertical-align: top;
+	text-align: justify;
+	width: 731px;
+	background-color: #C3D4E6;
+	color: #131262;
+	padding: 18px;
+}
+
+@font-face
+{
+	font-family: 'PoliceTitre';
+	src: url('polices/armalite_rifle.ttf');
+}
+h1
+{
+	font-family: 'PoliceTitre', Arial;
+	font-size: x-large;
+	text-align: center;
+}
+h5
+{
+	font-family: 'PoliceTitre', Arial;
+	text-align: center;
+}
+.prog
+{
+	text-align: center;
+	font-family: 'PoliceTitre', Arial;
+	font-size: 17px;
+}
+.logoconstruc
+{
+	margin-left: 230px;
+}
+article table
+{
+	text-align:center;
+	border : 1px solid black;	
+	border-radius: 10px;
+}
+.colonne
+{
+	background-color: white;
+	border-top : 1px solid white;
+	border-bottom : 1px solid white;
+}
+hr
+{
+	border: "aqua";
+}
+.imagetable
+{
+	width: 108px;
+	height:80px;
+}
+.imagetable2
+{
+	width: 120px;
+	height:80px;
+}
+.imagegroupe
+{
+	height:160px;
+	width: 200px;
+}
+.retour
+{
+	text-align:center;
+}
+table a:hover
+{
+	color : grey;
+}
+table a
+{
+	text-decoration: none;
+	color: #131262;
+}
